@@ -1,0 +1,12 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ActiveRestoreCounter\Performance]
+"Library" = "ActiveRestoreCounter.dll"
+"Open" = "OpenSigGenPerformanceData"
+"Collect" = "CollectSigGenPerformanceData"
+"Close" = "CloseSigGenPerformanceData"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Application\ActiveRestoreCounter]
+"EventMessageFile" = "%systemroot%\\system32\\ActiveRestoreCounter.dll"
+"TypesSupported" = dword:00000007
+
+
